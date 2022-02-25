@@ -1,0 +1,573 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Treason made manifest, or, A Discourse by way of dialogue between Richard and William in relation to the tryals and convictions of the two arch traytors, viz. [brace] Edward Fitz-Harris and Oliver Plunket, titular Arch-Bishop of Dublin in Ireland.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1681</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 18 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A63094</idno>
+            <idno type="STC">Wing T2078</idno>
+            <idno type="STC">ESTC R38355</idno>
+            <idno type="EEBO-CITATION">17349495</idno>
+            <idno type="OCLC">ocm 17349495</idno>
+            <idno type="VID">106387</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A63094)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 106387)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1105:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Treason made manifest, or, A Discourse by way of dialogue between Richard and William in relation to the tryals and convictions of the two arch traytors, viz. [brace] Edward Fitz-Harris and Oliver Plunket, titular Arch-Bishop of Dublin in Ireland.</title>
+               </titleStmt>
+               <extent>[2], 12+ p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for F. Coles, T. Vere, J. Wright, J. Clarke, W. Thackeray, and T. Passinger,</publisher>
+                  <pubPlace>[London?] :</pubPlace>
+                  <date>1681.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: all after p. 12 lacking.</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Fitzharris, Edward, 1648?-1681.</term>
+               <term>Plunket, Oliver, --  Saint, 1629-1681.</term>
+               <term>Popish Plot, 1678.</term>
+               <term>Great Britain --  History --  Charles II, 1660-1685.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:106387:1"/>
+            <!-- PDF PAGE 37 -->
+            <pb facs="tcp:106387:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 37 -->
+            <p>
+               <hi>TREASON made Manifeſt;</hi> OR, A DISCOURSE By way of DIALOGUE BETWEEN <hi>Richard</hi> and <hi>William:</hi> In Relation to the Tryals and Convictions <hi>Of the Two Arch-Traytors,</hi> VIZ.
+<list>
+                  <item>
+                     <hi>Edward Fitz-Harris,</hi> AND</item>
+                  <item>
+                     <hi>Oliver Plunket,</hi>
+                  </item>
+               </list>
+Titular Arch-Biſhop of DUBLIN IN <hi>IRELAND.</hi>
+            </p>
+            <p>Printed for <hi>F. Coles, T. Vere, J. Wright, J. Clarke, W. Thackeray,</hi> and <hi>T. Paſſinger.</hi> 1681.</p>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:106387:2"/>
+            <!-- PDF PAGE 38 -->
+            <pb n="1" facs="tcp:106387:2"/>
+            <!-- PDF PAGE 38 -->
+            <head>Treaſon made Manifeſt; OR, A Diſcourſe by way of Dialogue BETWEEN <hi>Richard</hi> and <hi>William,</hi> &amp;c.</head>
+            <sp>
+               <speaker>Richard.</speaker>
+               <p>HA Neighbour <hi>Will,</hi> and where are you going in all this haſte, if a Man may be ſo bold as to ask you the queſtion?</p>
+            </sp>
+            <sp>
+               <speaker>William.</speaker>
+               <p>
+                  <hi>Why Neighbor is it poſſible that you ſhould not know where I am going?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Yes, it is posſible, for as yet I know not.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Then in good faith ſit down upon this Ale-Bench, and I'le tell ye.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Be quick then, for I have but a little while to ſtay.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>As quick as you will, good Neigh<g ref="char:EOLhyphen"/>bor, for if I overſtay my Market, I ſhall buy but bad Pennyworths.</hi>
+               </p>
+            </sp>
+            <pb n="2" facs="tcp:106387:3"/>
+            <!-- PDF PAGE 39 -->
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>VVhy, are you going to Market then, pray what de'y deſign to buy that you fear to come too late?</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Buy Neighbour, why News, new Minted News, what do you think I intend to buy, that's the greateſt Chaffer now a<g ref="char:EOLhyphen"/>days.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>But pray where is it to be ſold?</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Why every where, there is few or no Markets but what yields little or much, but at this I am going to they ſell it by Sack<g ref="char:EOLhyphen"/>full, ſetting it up by way of Auction, ſo that at the burning of an inch of Candle, and Two-pence price, a Man may purchaſe as much as his Head can bear.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>VVell, but all the News now is about <hi>Fitz-Harris,</hi> who as 'tis ſaid on the <hi>9th</hi> of <hi>June</hi> was Tryed at the <hi>Kings-Bench,</hi> for the Higheſt of Treaſon that witty Miſchief could invent.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>'Tis true Neighbour, and there he was Caſt for his Life, being fairly convicted of his Treaſons.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>'Tis but juſt he ſhould, and con<g ref="char:EOLhyphen"/>demned too, nay, after that Drawn, Hanged and Quartered, who dare at<g ref="char:EOLhyphen"/>tempt the Depoſing and Murthering of his ſacred Majeſty, who is the Breath of our Noſtrils, as a worthy Iudge was
+<pb n="3" facs="tcp:106387:3"/>
+                  <!-- PDF PAGE 39 -->once pleaſed to ſay upon the Bench; and not only his, but to deſtroy all our lives and Liberties, by raiſing Rebellion and bring in a <hi>French</hi> Power, thereby to en<g ref="char:EOLhyphen"/>ſlave us to the Tyranny of the <hi>Pope.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Could this be proved againſt him up<g ref="char:EOLhyphen"/>on his Tryal?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Proved, yes, under his own Hand, and by ſeveral witneſs of candid Reputations, who ſwore it poſitively.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>But in what manner, or by what means, did he deſign to accompliſh ſuch his wicked deſigns?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>By Libelling the King, to render him odious to his ſubjects, by Charging him with ſuch things as no good Man can expreſs without horror and deteſta<g ref="char:EOLhyphen"/>tion; by endeavouring to ſet all in a Flame, or Combuſtion of Civil VVar, which ſhould be Carryed on under the name of the <hi>Non-Conformiſts,</hi> ſo that the Father ſhould have been againſt the Son, and the Son againſt the Father, to have ſheath'd their ſwords in each others bow<g ref="char:EOLhyphen"/>els, till all had been weakned and ruin'd, when as the <hi>Popiſh</hi> Army was to be raiſ<g ref="char:EOLhyphen"/>ed here, and the powers of <hi>France</hi> was to have broken in upon us, and ſo to have born down all before them.</p>
+            </sp>
+            <pb n="4" facs="tcp:106387:4"/>
+            <!-- PDF PAGE 40 -->
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>That had been ſad indeed, for then our lives had been like Chaff before a Tor<g ref="char:EOLhyphen"/>rent fire.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Yes, this had been our caſe had this Inſtrument of <hi>Rome</hi> and Hell ſet on and mannaged by the art and cunning of the Ieſuitick Policies ſucceeded.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>But pray how did he go about to per<g ref="char:EOLhyphen"/>fect this Deſign, I have here the meaſures he took, but it was ſo imperfectly related, that I could make nothing on't.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>VVhy, he haveing ſome ſmall acquaintance with one Mr. <hi>Everard,</hi> be<g ref="char:EOLhyphen"/>ing the Gentleman that was kept ſo long in the Tower, he came about the <hi>21th</hi> of <hi>Febr.</hi> laſt to his Chamber, and there fal<g ref="char:EOLhyphen"/>ling into diſcourſe with him about ſeve<g ref="char:EOLhyphen"/>ral matters, began to commiſerate him for the hard uſage he had ſuffered, ſince his adhearing to the Proteſtant Intreſt, telling, him if he would forſake it, and cleave to the Popiſh Party, he ſhould not onely meet with great Rewards, but likewiſe be put into places of truſt.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And did the Gentleman believe or give credit to what he ſaid?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Yes, he ſeemed ſo to do, but it was onely to find what he would be at, for he knew him to be a great Villain.</p>
+            </sp>
+            <pb n="5" facs="tcp:106387:4"/>
+            <!-- PDF PAGE 40 -->
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Well, and how did he proceed, had they any farther diſcourſe?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>VVhy then he began to open his mind, and propoſed to him the Indicting of ſo venomous and Treaſonable a Li<g ref="char:EOLhyphen"/>bell, that I think no Age e're heard the like, as for me, my hair ſtood an end when I heard it read in Court.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Why, what might it contain that it ſtruck you with ſuch horror.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Nay, it contained what I will not preſume to repeat; nor can I liken it to any thing, unleſs the Box which <hi>Pan<g ref="char:EOLhyphen"/>dora</hi> ſent to <hi>Epimetheus,</hi> full fraught with Plagues and dire deſtruction.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>But how come this to be diſcovered?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>VVhy the honeſt Gentleman, for ſo I may well call him for detecting ſo horrid a Villany, diſcloſed the buſineſs to ſeveral worthy perſons.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>But did he let <hi>Fitz-Harris</hi> know he did ſo?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>No I'le warrant ye, but gave the more countenance to proceed, and promiſed to take his Inſtructions for drawing up the Papers, and Appointed him a time to come for them, when as he had placed a Gentleman to over-hear the diſcourſe that paſſed betwixt them.</p>
+            </sp>
+            <pb n="6" facs="tcp:106387:5"/>
+            <!-- PDF PAGE 41 -->
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And did he come according to Ap<g ref="char:EOLhyphen"/>pointment?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Yes, he did, and uttered many Treaſonable words, promiſing the Gen<g ref="char:EOLhyphen"/>tleman that he ſhould have four Guinnys from the <hi>French</hi> Embaſſadors Confeſſor, and that he ſhould be entred a Penſioner to the <hi>French</hi> King, and have ſeveral Thouſand Crowns.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And how did the Gentleman like this proffer?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Not at all, for he boggled at it, ſaying it was a Treaſonable Deſign, and that he knew not what to think on't; Think on't (ſaid <hi>Fitz-Harris</hi>) why the more Treaſon the better, am not I deep<g ref="char:EOLhyphen"/>er concerned in it then you? have not you my Hand for it, and is there not ma<g ref="char:EOLhyphen"/>ny great Perſons concerned in it, or words to this effect.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Well, and what was to have been done with thoſe Papers you ſpeak of juſt now, how ſhould they have been diſpoſed of?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>VVhy ſeveral Thouſands Cop<g ref="char:EOLhyphen"/>pies were to have been diſperſed amongſt the People in Penny-Poſt Letters, and many put into Gentlemens pockets, and they apprehended with them about 'um, ſo that it could not chuſe but blow up a
+<pb n="7" facs="tcp:106387:5"/>
+                  <!-- PDF PAGE 41 -->flame of horrid miſchief, for all the Kings good ſubjects were to have been b<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ought into the Plot, and to be taxed for endea<g ref="char:EOLhyphen"/>vouring to raiſe Rebellion and Inſurre<g ref="char:EOLhyphen"/>ction, ſo that the Popes Agents thought themſelves Cock-ſure of prevailing a<g ref="char:EOLhyphen"/>gainſt us, this being their laſt, but moſt dangerous ſhift, and ſhew'd it ſelf to be the very Spawn of the Ieſuits, but Hea<g ref="char:EOLhyphen"/>ven that has hitherto blaſted their De<g ref="char:EOLhyphen"/>ſigns, prevented it, and broke the Cock<g ref="char:EOLhyphen"/>atrices Egg e're it could be hatched.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And was this Sworn againſt him at Tryal.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>It was, and much more then I can remember; but ſtay, I had forgot one paſſage that was very material, which was, That one of the Gentlemen that gave Evidence againſt him (whoſe known Fidelity renders him of unſpott<g ref="char:EOLhyphen"/>ed Reputation) becauſe he would not be miſtaken, marked the Papers that Mr. <hi>Everard</hi> brought to him, and whilſt he looked through a Crevice, he ſaw <hi>Fitz-Harris</hi> make ſeveral alterations, croſſ<g ref="char:EOLhyphen"/>ing out ſome and putting in other ſome, and after he was departed, found thoſe Papers to be the ſame he had ſet his pri<g ref="char:EOLhyphen"/>vate Mark upon, and that at the takeing them up, the Ink was wet.</p>
+            </sp>
+            <pb n="8" facs="tcp:106387:6"/>
+            <!-- PDF PAGE 42 -->
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And did not they apprehend him at that time?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>No, but ſome days after, and carrying him before a Magiſtrate, he confeſs'd a Treaſonable Paper to be his own hand-writing.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Well, but what anſwer did he make to what was ſworn againſt him:</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Truly little or nothing to the purpoſe, for he rather ſtrove to Iuſtifie what he had done, then any ways to deny or deteſt againſt ſuch wicked deſigns, in<g ref="char:EOLhyphen"/>ſiſting that he had been Impeached by the Commons, and that his cauſe ſay before them.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Well, and how then, was he ever the better for that Allegation?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>No, nor could he, for the Court before had over-ruled that Plea, and all the Iudges of <hi>England</hi> given their opini<g ref="char:EOLhyphen"/>ons, it was in the power of the Court to Try him.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>But did he produce no Witneſſes to teſtifie for him?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Yes, ſeveral, and many of them perſons of Quality.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And what could they ſay in his be<g ref="char:EOLhyphen"/>half?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Why truly very little or nothing
+<pb n="9" facs="tcp:106387:6"/>
+                  <!-- PDF PAGE 42 -->that would avoid his Cauſe, for it was ſo foul that no good Subject could any ways countenance it, but rather their E<g ref="char:EOLhyphen"/>vidence tended to his prejudice.</p>
+            </sp>
+            <sp>
+               <speaker>R.</speaker>
+               <p>
+                  <hi>Why did he call them, ſeeing their Te<g ref="char:EOLhyphen"/>ſtimonies availed him nothing, and he had better been without 'um.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>W.</speaker>
+               <p>Why, to prove that he had been with them from the King about buſineſs of importance.</p>
+            </sp>
+            <sp>
+               <speaker>R.</speaker>
+               <p>
+                  <hi>And did they agree he had:</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>W.</speaker>
+               <p>Yes, they agreed that he had been with them, but they did no ways believe his Majeſty ſent him.</p>
+            </sp>
+            <sp>
+               <speaker>R.</speaker>
+               <p>
+                  <hi>Was that all?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>W.</speaker>
+               <p>No, no, he called ſeveral to teſtifie that he had received Moneys by his Ma<g ref="char:EOLhyphen"/>jeſties Order, the which he would have put an evil Conſtruction on.</p>
+            </sp>
+            <sp>
+               <speaker>R.</speaker>
+               <p>
+                  <hi>And was it proved?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Yes, that he had received about 200 <abbr>
+                        <hi>l.</hi>
+                     </abbr> but that it was given him out of Charity, his own Petition being produced, ſo that you may ſee what a Monſter he is.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Well, but how came he off at laſt?</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Why, when about fourteen Wit<g ref="char:EOLhyphen"/>neſſes had been heard, the Kings Council ſummed up their Evidence to the Jury, lay<g ref="char:EOLhyphen"/>ing open to them the nature of the Crime in
+<pb n="10" facs="tcp:106387:7"/>
+                     <!-- PDF PAGE 43 -->all its horrid Circumſtances,; and when they had done, <hi>Fitz-Harris</hi> addreſſed himſelf to them in a threatning way, bidding them be<g ref="char:EOLhyphen"/>ware what they did, for his Cauſe lay before the Parliament, and that if they found him Guily his Blood would lye at their doors, and that he doubted not but that it would be re<g ref="char:EOLhyphen"/>venged.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>And do you think they believed him?</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Nay, I cannot tell as to that, but after the Court had given in their Charge, they made ſome ſcruples, and ſeemed not well ſatisfied till the Court had given them farther Inſtructions; and what did they do then?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Why then they went out, and ſtaying near an hour, they returned, and gave in their Verdict, That he was Guilty of the High Treaſon for which he ſtood Indicted; which Verdict was accordingly taken and Recorded: the Court telling them they had found a very good Verdict.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And did the People ſeem pleaſed with it?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Yes, and gave ſuch a Hum as made the Hall ring again.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Well, I wiſh all Traytors the like ſucceſs: but Neighbour, 'tis reported that
+<pb n="11" facs="tcp:106387:7"/>
+                     <!-- PDF PAGE 43 -->one <hi>Oliver Plunket</hi> another <hi>Iriſh</hi> Traytor, and Titular Arch-Biſhop of <hi>Dublin,</hi> was Tryed the day before, Pray what became of him?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Why he was found Guilty of High-Treaſon.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>In what Nature? or where Com<g ref="char:EOLhyphen"/>mitted?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>For the moſt part in <hi>Ireland,</hi> and the Evidence Sworn againſt him in Court, was to this purpoſe, That he held Correſpondence with the <hi>French</hi> King, and that he was to deliver up certain Towns upon the Sea-Coaſt to the <hi>French,</hi> that they might Land an Army: and farther, that in order to the leavying War in that Kingdom, he had made ſeveral Collections of monies, and that he had endeavour's to compaſs the Death of His Majeſty, and enſlave that Kingdom to <hi>Popery,</hi> and the Inſult<g ref="char:EOLhyphen"/>ing Tyranny of the <hi>French</hi> Power.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And was all this prov'd againſt him in Court?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Yes, and much more, even by his own Country-men.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Pray what could he ſay for himſelf in this caſe?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Why truly little or nothing, for
+<pb n="12" facs="tcp:106387:8"/>
+                  <!-- PDF PAGE 44 -->Treaſon is always attended with a guil<g ref="char:EOLhyphen"/>ty Conſcience, only he objected againſt the Inſufficiency of the Witneſſes, al<g ref="char:EOLhyphen"/>ledging he ſtood Convicted upon record.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>And did he produce thoſe Records in Court?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>No, but being asked why he had not done it, his anſwer was, That he had not time nor opportunity enough to procure them.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>But had he no Witneſſes to teſtifie in his behalf?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>Yes, one or two, I think, but their Evidence was not any thing ma<g ref="char:EOLhyphen"/>terial for his advantage.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Why? did not they ſpeak to the purpoſe?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>No, but only endeavour'd to de<g ref="char:EOLhyphen"/>grade ſome of the Kings Evidence, but could give no grounds for what they ſaid, it being altogether groundleſs.</p>
+            </sp>
+            <sp>
+               <speaker>Will.</speaker>
+               <p>
+                  <hi>Well, and why did not he ſend over for his Witneſſes, as he ſaid he would the laſt Term, ſeeing he had time enough allowed him?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Rich.</speaker>
+               <p>It's true, he might have done it; nay, he ſaid he did, but that they be<g ref="char:EOLhyphen"/>ing for the moſt part Prieſts, they durſt not come over without His Majeſties<gap reason="missing" extent="1 page">
+                     <desc>〈1 page missing〉</desc>
+                  </gap>
+               </p>
+            </sp>
+            <pb facs="tcp:106387:8"/>
+            <!-- PDF PAGE 44 -->
+         </div>
+      </body>
+   </text>
+</TEI>
